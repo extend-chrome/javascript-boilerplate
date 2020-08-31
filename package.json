@@ -1,15 +1,21 @@
 {
-  "name": "chrome-extension-basic",
-  "description": "Use this repo to reproduce issues",
+  "name": "javascript-boilerplate",
   "version": "1.0.0",
-  "dependencies": {
-    "rollup": "^1.27.0",
-    "rollup-plugin-chrome-extension": "^1.2.6",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  },
+  "description": "Chrome Extension boilerplate with JS and Rollup",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "watch": "rollup -w -c"
+  },
+  "dependencies": {
+    "@types/chrome": "0.0.122"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "prettier": "^2.1.1",
+    "rollup": "^2.26.8",
+    "rollup-plugin-chrome-extension": "^3.3.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
