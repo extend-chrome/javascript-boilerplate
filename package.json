@@ -1,0 +1,15 @@
+{
+  "name": "chrome-extension-basic",
+  "description": "Use this repo to reproduce issues",
+  "version": "1.0.0",
+  "dependencies": {
+    "rollup": "^1.27.0",
+    "rollup-plugin-chrome-extension": "^1.2.6",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
