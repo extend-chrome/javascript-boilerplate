@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Chrome Extension boilerplate with JS and Rollup",
   "license": "MIT",
+  "author": {
+    "name": "Jack Steam",
+    "email": "jacksteamdev@gmail.com"
+  },
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -w -c"
