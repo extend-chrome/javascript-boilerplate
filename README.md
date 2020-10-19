@@ -1,6 +1,6 @@
 # JavaScript Chrome Extension Boilerplate
 
-[![](https://img.shields.io/badge/Fork%20on-CodeSandbox-blue)](https://githubbox.com/extend-chrome/javascript-boilerplate)
+<!-- [![](https://img.shields.io/badge/Fork%20on-CodeSandbox-blue)](https://githubbox.com/extend-chrome/javascript-boilerplate) -->
 [![GitHub last commit](https://img.shields.io/github/last-commit/extend-chrome/javascript-boilerplate.svg)](https://github.com/extend-chrome/rollup-plugin-javascript-boilerplate)
 
 A basic boilerplate that gets you started quickly. It supports modern, modular
